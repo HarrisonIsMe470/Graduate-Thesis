@@ -1,0 +1,8 @@
+pygame
+pandas
+numpy
+matplotlib
+scipy
+dtaidistance
+tslearn
+jupyter

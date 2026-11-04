@@ -1,0 +1,2777 @@
+{
+  "scope": "450 source working-tree files. Source identities/paths that could identify the author are masked. Excluded bytes and their hashes are not distributed.",
+  "git": "Entire .git directory excluded, including all 507 metadata/object files; no history or remote configuration copied.",
+  "files": [
+    {
+      "source_id": "S0001",
+      "source": ".DS_Store",
+      "action": "excluded",
+      "reason": "System/history/cache artifact or non-allowlisted file"
+    },
+    {
+      "source_id": "S0002",
+      "source": ".Rhistory",
+      "action": "excluded",
+      "reason": "System/history/cache artifact or non-allowlisted file"
+    },
+    {
+      "source_id": "S0003",
+      "source": "Data Analysis/.ipynb_checkpoints/EER_data-checkpoint.json",
+      "action": "excluded",
+      "reason": "Notebook checkpoint or cached participant output"
+    },
+    {
+      "source_id": "S0004",
+      "source": "Data Analysis/.ipynb_checkpoints/analysis-checkpoint.ipynb",
+      "action": "excluded",
+      "reason": "Notebook checkpoint or cached participant output"
+    },
+    {
+      "source_id": "S0005",
+      "source": "Data Analysis/.ipynb_checkpoints/previous_analysis-checkpoint.ipynb",
+      "action": "excluded",
+      "reason": "Notebook checkpoint or cached participant output"
+    },
+    {
+      "source_id": "S0006",
+      "source": "Data Analysis/.ipynb_checkpoints/run-checkpoint.bat",
+      "action": "excluded",
+      "reason": "Notebook checkpoint or cached participant output"
+    },
+    {
+      "source_id": "S0007",
+      "source": "Data Analysis/EER_data.json",
+      "action": "aggregated",
+      "destination": "results/aggregate_eer.json",
+      "details": "Only rounded cohort means retained; original arrays excluded"
+    },
+    {
+      "source_id": "S0008",
+      "source": "Data Analysis/EER_data_for_experiment2.json",
+      "action": "aggregated",
+      "destination": "results/aggregate_eer.json",
+      "details": "Only rounded cohort means retained; original arrays excluded"
+    },
+    {
+      "source_id": "S0009",
+      "source": "Data Analysis/analysis.ipynb",
+      "action": "sanitized",
+      "destination": "Data Analysis/analysis.ipynb",
+      "details": "Cleared 3 saved outputs, all execution counts/metadata/attachments; replaced machine paths; documented historical gaps"
+    },
+    {
+      "source_id": "S0010",
+      "source": "Data Analysis/run.bat",
+      "action": "excluded",
+      "reason": "Machine/environment-specific launcher; replaced by documented commands"
+    },
+    {
+      "source_id": "S0011",
+      "source": "Data/Experiment1/Participant1/E1.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0012",
+      "source": "Data/Experiment1/Participant1/E1.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0013",
+      "source": "Data/Experiment1/Participant1/E2.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0014",
+      "source": "Data/Experiment1/Participant1/E2.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0015",
+      "source": "Data/Experiment1/Participant1/E3.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0016",
+      "source": "Data/Experiment1/Participant1/E3.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0017",
+      "source": "Data/Experiment1/Participant1/E4.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0018",
+      "source": "Data/Experiment1/Participant1/E4.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0019",
+      "source": "Data/Experiment1/Participant2/E1.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0020",
+      "source": "Data/Experiment1/Participant2/E1.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0021",
+      "source": "Data/Experiment1/Participant2/E2.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0022",
+      "source": "Data/Experiment1/Participant2/E2.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0023",
+      "source": "Data/Experiment1/Participant2/E3.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0024",
+      "source": "Data/Experiment1/Participant2/E3.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0025",
+      "source": "Data/Experiment1/Participant2/E4.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0026",
+      "source": "Data/Experiment1/Participant2/E4.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0027",
+      "source": "Data/Experiment1/Participant3/E1.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0028",
+      "source": "Data/Experiment1/Participant3/E1.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0029",
+      "source": "Data/Experiment1/Participant3/E2.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0030",
+      "source": "Data/Experiment1/Participant3/E2.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0031",
+      "source": "Data/Experiment1/Participant3/E3 Bakcup.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0032",
+      "source": "Data/Experiment1/Participant3/E3.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0033",
+      "source": "Data/Experiment1/Participant3/E3.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0034",
+      "source": "Data/Experiment1/Participant3/E4.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0035",
+      "source": "Data/Experiment1/Participant3/E4.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0036",
+      "source": "Data/Experiment1/Participant4/E1.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0037",
+      "source": "Data/Experiment1/Participant4/E1.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0038",
+      "source": "Data/Experiment1/Participant4/E2.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0039",
+      "source": "Data/Experiment1/Participant4/E2.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0040",
+      "source": "Data/Experiment1/Participant4/E3 backup.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0041",
+      "source": "Data/Experiment1/Participant4/E3.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0042",
+      "source": "Data/Experiment1/Participant4/E3.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0043",
+      "source": "Data/Experiment1/Participant4/E4.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0044",
+      "source": "Data/Experiment1/Participant4/E4.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0045",
+      "source": "Data/Experiment1/Participant5/E1.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0046",
+      "source": "Data/Experiment1/Participant5/E1.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0047",
+      "source": "Data/Experiment1/Participant5/E2.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0048",
+      "source": "Data/Experiment1/Participant5/E2.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0049",
+      "source": "Data/Experiment1/Participant5/E3 backup.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0050",
+      "source": "Data/Experiment1/Participant5/E3.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0051",
+      "source": "Data/Experiment1/Participant5/E3.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0052",
+      "source": "Data/Experiment1/Participant5/E4.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0053",
+      "source": "Data/Experiment1/Participant5/E4.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0054",
+      "source": "Data/Experiment1/Participant6/E1.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0055",
+      "source": "Data/Experiment1/Participant6/E1.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0056",
+      "source": "Data/Experiment1/Participant6/E2.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0057",
+      "source": "Data/Experiment1/Participant6/E2.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0058",
+      "source": "Data/Experiment1/Participant6/E3.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0059",
+      "source": "Data/Experiment1/Participant6/E3.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0060",
+      "source": "Data/Experiment1/Participant6/E4.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0061",
+      "source": "Data/Experiment1/Participant6/E4.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0062",
+      "source": "Data/Experiment2/Participant1/Stimulus1.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0063",
+      "source": "Data/Experiment2/Participant1/Stimulus1.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0064",
+      "source": "Data/Experiment2/Participant1/Stimulus2.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0065",
+      "source": "Data/Experiment2/Participant1/Stimulus2.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0066",
+      "source": "Data/Experiment2/Participant1/Stimulus3.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0067",
+      "source": "Data/Experiment2/Participant1/Stimulus3.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0068",
+      "source": "Data/Experiment2/Participant1/Stimulus4.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0069",
+      "source": "Data/Experiment2/Participant1/Stimulus4.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0070",
+      "source": "Data/Experiment2/Participant1/Stimulus5.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0071",
+      "source": "Data/Experiment2/Participant1/Stimulus5.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0072",
+      "source": "Data/Experiment2/Participant1/Stimulus6.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0073",
+      "source": "Data/Experiment2/Participant1/Stimulus6.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0074",
+      "source": "Data/Experiment2/Participant1/Stimulus7.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0075",
+      "source": "Data/Experiment2/Participant1/Stimulus7.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0076",
+      "source": "Data/Experiment2/Participant1/Stimulus8.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0077",
+      "source": "Data/Experiment2/Participant1/Stimulus8.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0078",
+      "source": "Data/Experiment2/Participant2/Stimulus1.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0079",
+      "source": "Data/Experiment2/Participant2/Stimulus1.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0080",
+      "source": "Data/Experiment2/Participant2/Stimulus2.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0081",
+      "source": "Data/Experiment2/Participant2/Stimulus2.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0082",
+      "source": "Data/Experiment2/Participant2/Stimulus3.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0083",
+      "source": "Data/Experiment2/Participant2/Stimulus3.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0084",
+      "source": "Data/Experiment2/Participant2/Stimulus4.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0085",
+      "source": "Data/Experiment2/Participant2/Stimulus4.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0086",
+      "source": "Data/Experiment2/Participant2/Stimulus5.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0087",
+      "source": "Data/Experiment2/Participant2/Stimulus5.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0088",
+      "source": "Data/Experiment2/Participant2/Stimulus6.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0089",
+      "source": "Data/Experiment2/Participant2/Stimulus6.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0090",
+      "source": "Data/Experiment2/Participant2/Stimulus7.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0091",
+      "source": "Data/Experiment2/Participant2/Stimulus7.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0092",
+      "source": "Data/Experiment2/Participant2/Stimulus8.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0093",
+      "source": "Data/Experiment2/Participant2/Stimulus8.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0094",
+      "source": "Data/Experiment2/Participant3/Stimulus1.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0095",
+      "source": "Data/Experiment2/Participant3/Stimulus1.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0096",
+      "source": "Data/Experiment2/Participant3/Stimulus2.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0097",
+      "source": "Data/Experiment2/Participant3/Stimulus2.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0098",
+      "source": "Data/Experiment2/Participant3/Stimulus3.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0099",
+      "source": "Data/Experiment2/Participant3/Stimulus3.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0100",
+      "source": "Data/Experiment2/Participant3/Stimulus4.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0101",
+      "source": "Data/Experiment2/Participant3/Stimulus4.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0102",
+      "source": "Data/Experiment2/Participant3/Stimulus5.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0103",
+      "source": "Data/Experiment2/Participant3/Stimulus5.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0104",
+      "source": "Data/Experiment2/Participant3/Stimulus6.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0105",
+      "source": "Data/Experiment2/Participant3/Stimulus6.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0106",
+      "source": "Data/Experiment2/Participant3/Stimulus7.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0107",
+      "source": "Data/Experiment2/Participant3/Stimulus7.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0108",
+      "source": "Data/Experiment2/Participant3/Stimulus8.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0109",
+      "source": "Data/Experiment2/Participant3/Stimulus8.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0110",
+      "source": "Data/Experiment2/Participant4/Stimulus1.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0111",
+      "source": "Data/Experiment2/Participant4/Stimulus1.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0112",
+      "source": "Data/Experiment2/Participant4/Stimulus2.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0113",
+      "source": "Data/Experiment2/Participant4/Stimulus2.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0114",
+      "source": "Data/Experiment2/Participant4/Stimulus3.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0115",
+      "source": "Data/Experiment2/Participant4/Stimulus3.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0116",
+      "source": "Data/Experiment2/Participant4/Stimulus4.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0117",
+      "source": "Data/Experiment2/Participant4/Stimulus4.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0118",
+      "source": "Data/Experiment2/Participant4/Stimulus5.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0119",
+      "source": "Data/Experiment2/Participant4/Stimulus5.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0120",
+      "source": "Data/Experiment2/Participant4/Stimulus6.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0121",
+      "source": "Data/Experiment2/Participant4/Stimulus6.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0122",
+      "source": "Data/Experiment2/Participant4/Stimulus7.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0123",
+      "source": "Data/Experiment2/Participant4/Stimulus7.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0124",
+      "source": "Data/Experiment2/Participant4/Stimulus8.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0125",
+      "source": "Data/Experiment2/Participant4/Stimulus8.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0126",
+      "source": "Data/Experiment2/Participant5/Stimulus1.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0127",
+      "source": "Data/Experiment2/Participant5/Stimulus1.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0128",
+      "source": "Data/Experiment2/Participant5/Stimulus2.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0129",
+      "source": "Data/Experiment2/Participant5/Stimulus2.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0130",
+      "source": "Data/Experiment2/Participant5/Stimulus3.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0131",
+      "source": "Data/Experiment2/Participant5/Stimulus3.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0132",
+      "source": "Data/Experiment2/Participant5/Stimulus4.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0133",
+      "source": "Data/Experiment2/Participant5/Stimulus4.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0134",
+      "source": "Data/Experiment2/Participant5/Stimulus5.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0135",
+      "source": "Data/Experiment2/Participant5/Stimulus5.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0136",
+      "source": "Data/Experiment2/Participant5/Stimulus6.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0137",
+      "source": "Data/Experiment2/Participant5/Stimulus6.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0138",
+      "source": "Data/Experiment2/Participant5/Stimulus7.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0139",
+      "source": "Data/Experiment2/Participant5/Stimulus7.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0140",
+      "source": "Data/Experiment2/Participant5/Stimulus8.CSV",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0141",
+      "source": "Data/Experiment2/Participant5/Stimulus8.xlsx",
+      "action": "excluded",
+      "reason": "Participant biometric data and/or spreadsheet metadata"
+    },
+    {
+      "source_id": "S0142",
+      "source": "Dissertation/.DS_Store",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0143",
+      "source": "Dissertation/images/4Colors/4Colors.psd",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0144",
+      "source": "Dissertation/images/4Colors/ColorCombination1/BackgroundColor.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0145",
+      "source": "Dissertation/images/4Colors/ColorCombination1/FrontColor.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0146",
+      "source": "Dissertation/images/4Colors/ColorCombination1/MedianColor.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0147",
+      "source": "Dissertation/images/4Colors/ColorCombination2/BackgroundColor.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0148",
+      "source": "Dissertation/images/4Colors/ColorCombination2/FrontColor.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0149",
+      "source": "Dissertation/images/4Colors/ColorCombination2/MedianColor.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0150",
+      "source": "Dissertation/images/4Colors/ColorCombination3/BackgroundColor.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0151",
+      "source": "Dissertation/images/4Colors/ColorCombination3/FrontColor.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0152",
+      "source": "Dissertation/images/4Colors/ColorCombination3/MedianColor.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0153",
+      "source": "Dissertation/images/4Colors/ColorCombination4/BackgroundColor.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0154",
+      "source": "Dissertation/images/4Colors/ColorCombination4/FrontColor.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0155",
+      "source": "Dissertation/images/4Colors/ColorCombination4/MedianColor.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0156",
+      "source": "Dissertation/images/DBA[0][0]/DBA-1.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0157",
+      "source": "Dissertation/images/DBA[0][0]/DBA-2.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0158",
+      "source": "Dissertation/images/DBA[0][0]/DBA-3.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0159",
+      "source": "Dissertation/images/DBA[0][0]/DBA-4.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0160",
+      "source": "Dissertation/images/DBA[0][0]/DBA[0][0].psd",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0161",
+      "source": "Dissertation/images/eps/4Colors.eps",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0162",
+      "source": "Dissertation/images/eps/DBA[0][0].eps",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0163",
+      "source": "Dissertation/images/eps/EER Curve.eps",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0164",
+      "source": "Dissertation/images/eps/Experimental Environment.eps",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0165",
+      "source": "Dissertation/images/eps/Linear Interpolation.eps",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0166",
+      "source": "Dissertation/images/eps/Lowpass Filter.eps",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0167",
+      "source": "Dissertation/images/eps/Proposed Method.eps",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0168",
+      "source": "Dissertation/images/eps/Threshold Setting.eps",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0169",
+      "source": "Dissertation/images/eps/Visual Stimulus Pattern 1.eps",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0170",
+      "source": "Dissertation/images/eps/Visual Stimulus Pattern 2.eps",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0171",
+      "source": "Dissertation/images/eps/Visual Stimulus Pattern 3.eps",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0172",
+      "source": "Dissertation/images/eps/Visual Stimulus Pattern 4.eps",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0173",
+      "source": "Dissertation/images/eps/Visual Stimulus Pattern 5.eps",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0174",
+      "source": "Dissertation/images/eps/Visual Stimulus Pattern 6.eps",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0175",
+      "source": "Dissertation/images/eps/Visual Stimulus Pattern 7.eps",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0176",
+      "source": "Dissertation/images/eps/Visual Stimulus Pattern 8.eps",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0177",
+      "source": "Dissertation/images/png/4Colors.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0178",
+      "source": "Dissertation/images/png/DBA[0][0].png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0179",
+      "source": "Dissertation/images/png/EER曲線.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0180",
+      "source": "Dissertation/images/png/Experimental Environment.jpg",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0181",
+      "source": "Dissertation/images/png/ローパスフィルタ.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0182",
+      "source": "Dissertation/images/png/提案手法概要.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0183",
+      "source": "Dissertation/images/png/線形補間.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0184",
+      "source": "Dissertation/images/png/視覚刺激パターン1.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0185",
+      "source": "Dissertation/images/png/視覚刺激パターン2.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0186",
+      "source": "Dissertation/images/png/視覚刺激パターン3.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0187",
+      "source": "Dissertation/images/png/視覚刺激パターン4.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0188",
+      "source": "Dissertation/images/png/視覚刺激パターン5.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0189",
+      "source": "Dissertation/images/png/視覚刺激パターン6.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0190",
+      "source": "Dissertation/images/png/視覚刺激パターン7.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0191",
+      "source": "Dissertation/images/png/視覚刺激パターン8.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0192",
+      "source": "Dissertation/images/png/閾値設定.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0193",
+      "source": "Dissertation/images/ローパスフィルタ/ローパスフィルタ.psd",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0194",
+      "source": "Dissertation/images/ローパスフィルタ/ローパスフィルタかけた後.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0195",
+      "source": "Dissertation/images/ローパスフィルタ/ローパスフィルタかける前.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0196",
+      "source": "Dissertation/images/線形補間/線形補間.psd",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0197",
+      "source": "Dissertation/images/線形補間/線形補間前.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0198",
+      "source": "Dissertation/images/線形補間/線形補間後.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0199",
+      "source": "Dissertation/images/視覚刺激パターン1/視覚刺激パターン1.psd",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0200",
+      "source": "Dissertation/images/視覚刺激パターン1/視覚刺激パターン1BackgroundColor.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0201",
+      "source": "Dissertation/images/視覚刺激パターン1/視覚刺激パターン1FrontColor.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0202",
+      "source": "Dissertation/images/視覚刺激パターン1/視覚刺激パターン1MedianColor.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0203",
+      "source": "Dissertation/images/視覚刺激パターン2/視覚刺激パターン2.psd",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0204",
+      "source": "Dissertation/images/視覚刺激パターン2/視覚刺激パターン2BackgroundColor.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0205",
+      "source": "Dissertation/images/視覚刺激パターン2/視覚刺激パターン2FrontColor.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0206",
+      "source": "Dissertation/images/視覚刺激パターン3/Circle.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0207",
+      "source": "Dissertation/images/視覚刺激パターン3/Square.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0208",
+      "source": "Dissertation/images/視覚刺激パターン3/Star.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0209",
+      "source": "Dissertation/images/視覚刺激パターン3/Triangle.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0210",
+      "source": "Dissertation/images/視覚刺激パターン3/視覚刺激パターン3.psd",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0211",
+      "source": "Dissertation/images/視覚刺激パターン3/視覚刺激パターン3BackgroundColor.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0212",
+      "source": "Dissertation/images/視覚刺激パターン3/視覚刺激パターン3Square.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0213",
+      "source": "Dissertation/images/視覚刺激パターン4/視覚刺激パターン4-1.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0214",
+      "source": "Dissertation/images/視覚刺激パターン4/視覚刺激パターン4-2.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0215",
+      "source": "Dissertation/images/視覚刺激パターン4/視覚刺激パターン4-3.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0216",
+      "source": "Dissertation/images/視覚刺激パターン4/視覚刺激パターン4.psd",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0217",
+      "source": "Dissertation/images/視覚刺激パターン5/視覚刺激パターン5.psd",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0218",
+      "source": "Dissertation/images/視覚刺激パターン5/視覚刺激パターン5Background.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0219",
+      "source": "Dissertation/images/視覚刺激パターン5/視覚刺激パターン5Front.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0220",
+      "source": "Dissertation/images/視覚刺激パターン6/視覚刺激パターン6.psd",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0221",
+      "source": "Dissertation/images/視覚刺激パターン6/視覚刺激パターン6Background.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0222",
+      "source": "Dissertation/images/視覚刺激パターン6/視覚刺激パターン6Front.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0223",
+      "source": "Dissertation/images/視覚刺激パターン7/視覚刺激パターン7.psd",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0224",
+      "source": "Dissertation/images/視覚刺激パターン7/視覚刺激パターン7Background.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0225",
+      "source": "Dissertation/images/視覚刺激パターン7/視覚刺激パターン7Front.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0226",
+      "source": "Dissertation/images/視覚刺激パターン8/Background.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0227",
+      "source": "Dissertation/images/視覚刺激パターン8/Front1.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0228",
+      "source": "Dissertation/images/視覚刺激パターン8/Front2.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0229",
+      "source": "Dissertation/images/視覚刺激パターン8/Front3.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0230",
+      "source": "Dissertation/images/視覚刺激パターン8/Front4.png",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0231",
+      "source": "Dissertation/images/視覚刺激パターン8/視覚刺激パターン8.psd",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0232",
+      "source": "Dissertation/[withheld-document].pptx",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0233",
+      "source": "Dissertation/[withheld-document].docx",
+      "action": "excluded",
+      "reason": "Original document metadata, individual waveforms, photos or personal academic material"
+    },
+    {
+      "source_id": "S0234",
+      "source": "Programs/Experimental1 settings copy.txt",
+      "action": "sanitized",
+      "destination": "Programs/experiment1_settings.txt"
+    },
+    {
+      "source_id": "S0235",
+      "source": "Programs/Experimental2 settings.txt",
+      "action": "sanitized",
+      "destination": "Programs/experiment2_settings.txt"
+    },
+    {
+      "source_id": "S0236",
+      "source": "Programs/Images/Experiment1/PureColorImages/BlueAsPrimary.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/PureColorImages/BlueAsPrimary.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0237",
+      "source": "Programs/Images/Experiment1/PureColorImages/BlueAsSecondary.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/PureColorImages/BlueAsSecondary.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0238",
+      "source": "Programs/Images/Experiment1/PureColorImages/GreenAsPrimary.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/PureColorImages/GreenAsPrimary.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0239",
+      "source": "Programs/Images/Experiment1/PureColorImages/GreenAsSecondary.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/PureColorImages/GreenAsSecondary.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0240",
+      "source": "Programs/Images/Experiment1/PureColorImages/RedAsPrimary.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/PureColorImages/RedAsPrimary.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0241",
+      "source": "Programs/Images/Experiment1/PureColorImages/RedAsSecondary.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/PureColorImages/RedAsSecondary.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0242",
+      "source": "Programs/Images/Experiment1/PureColorImages/YellowAsPrimary.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/PureColorImages/YellowAsPrimary.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0243",
+      "source": "Programs/Images/Experiment1/PureColorImages/YellowAsSecondary.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/PureColorImages/YellowAsSecondary.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0244",
+      "source": "Programs/Images/Experiment1/Stimulus1/ColorCombination1/BackgroundColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus1/ColorCombination1/BackgroundColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0245",
+      "source": "Programs/Images/Experiment1/Stimulus1/ColorCombination1/FrontColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus1/ColorCombination1/FrontColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0246",
+      "source": "Programs/Images/Experiment1/Stimulus1/ColorCombination1/MedianColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus1/ColorCombination1/MedianColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0247",
+      "source": "Programs/Images/Experiment1/Stimulus1/ColorCombination2/BackgroundColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus1/ColorCombination2/BackgroundColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0248",
+      "source": "Programs/Images/Experiment1/Stimulus1/ColorCombination2/FrontColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus1/ColorCombination2/FrontColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0249",
+      "source": "Programs/Images/Experiment1/Stimulus1/ColorCombination2/MedianColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus1/ColorCombination2/MedianColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0250",
+      "source": "Programs/Images/Experiment1/Stimulus1/ColorCombination3/BackgroundColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus1/ColorCombination3/BackgroundColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0251",
+      "source": "Programs/Images/Experiment1/Stimulus1/ColorCombination3/FrontColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus1/ColorCombination3/FrontColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0252",
+      "source": "Programs/Images/Experiment1/Stimulus1/ColorCombination3/MedianColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus1/ColorCombination3/MedianColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0253",
+      "source": "Programs/Images/Experiment1/Stimulus1/ColorCombination4/BackgroundColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus1/ColorCombination4/BackgroundColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0254",
+      "source": "Programs/Images/Experiment1/Stimulus1/ColorCombination4/FrontColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus1/ColorCombination4/FrontColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0255",
+      "source": "Programs/Images/Experiment1/Stimulus1/ColorCombination4/MedianColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus1/ColorCombination4/MedianColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0256",
+      "source": "Programs/Images/Experiment1/Stimulus2/ColorCombination1/BackgroundColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus2/ColorCombination1/BackgroundColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0257",
+      "source": "Programs/Images/Experiment1/Stimulus2/ColorCombination1/FrontColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus2/ColorCombination1/FrontColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0258",
+      "source": "Programs/Images/Experiment1/Stimulus2/ColorCombination2/BackgroundColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus2/ColorCombination2/BackgroundColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0259",
+      "source": "Programs/Images/Experiment1/Stimulus2/ColorCombination2/FrontColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus2/ColorCombination2/FrontColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0260",
+      "source": "Programs/Images/Experiment1/Stimulus2/ColorCombination3/BackgroundColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus2/ColorCombination3/BackgroundColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0261",
+      "source": "Programs/Images/Experiment1/Stimulus2/ColorCombination3/FrontColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus2/ColorCombination3/FrontColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0262",
+      "source": "Programs/Images/Experiment1/Stimulus2/ColorCombination4/BackgroundColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus2/ColorCombination4/BackgroundColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0263",
+      "source": "Programs/Images/Experiment1/Stimulus2/ColorCombination4/FrontColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus2/ColorCombination4/FrontColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0264",
+      "source": "Programs/Images/Experiment1/Stimulus3/ColorCombination1/BackgroundColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus3/ColorCombination1/BackgroundColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0265",
+      "source": "Programs/Images/Experiment1/Stimulus3/ColorCombination1/Circle.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus3/ColorCombination1/Circle.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0266",
+      "source": "Programs/Images/Experiment1/Stimulus3/ColorCombination1/Square.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus3/ColorCombination1/Square.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0267",
+      "source": "Programs/Images/Experiment1/Stimulus3/ColorCombination1/Star.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus3/ColorCombination1/Star.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0268",
+      "source": "Programs/Images/Experiment1/Stimulus3/ColorCombination1/Triangle.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus3/ColorCombination1/Triangle.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0269",
+      "source": "Programs/Images/Experiment1/Stimulus3/ColorCombination2/BackgroundColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus3/ColorCombination2/BackgroundColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0270",
+      "source": "Programs/Images/Experiment1/Stimulus3/ColorCombination2/Circle.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus3/ColorCombination2/Circle.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0271",
+      "source": "Programs/Images/Experiment1/Stimulus3/ColorCombination2/Square.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus3/ColorCombination2/Square.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0272",
+      "source": "Programs/Images/Experiment1/Stimulus3/ColorCombination2/Star.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus3/ColorCombination2/Star.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0273",
+      "source": "Programs/Images/Experiment1/Stimulus3/ColorCombination2/Triangle.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus3/ColorCombination2/Triangle.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0274",
+      "source": "Programs/Images/Experiment1/Stimulus3/ColorCombination3/BackgroundColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus3/ColorCombination3/BackgroundColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0275",
+      "source": "Programs/Images/Experiment1/Stimulus3/ColorCombination3/Circle.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus3/ColorCombination3/Circle.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0276",
+      "source": "Programs/Images/Experiment1/Stimulus3/ColorCombination3/Square.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus3/ColorCombination3/Square.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0277",
+      "source": "Programs/Images/Experiment1/Stimulus3/ColorCombination3/Star.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus3/ColorCombination3/Star.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0278",
+      "source": "Programs/Images/Experiment1/Stimulus3/ColorCombination3/Triangle.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus3/ColorCombination3/Triangle.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0279",
+      "source": "Programs/Images/Experiment1/Stimulus3/ColorCombination4/BackgroundColor.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus3/ColorCombination4/BackgroundColor.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0280",
+      "source": "Programs/Images/Experiment1/Stimulus3/ColorCombination4/Circle.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus3/ColorCombination4/Circle.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0281",
+      "source": "Programs/Images/Experiment1/Stimulus3/ColorCombination4/Square.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus3/ColorCombination4/Square.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0282",
+      "source": "Programs/Images/Experiment1/Stimulus3/ColorCombination4/Star.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus3/ColorCombination4/Star.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0283",
+      "source": "Programs/Images/Experiment1/Stimulus3/ColorCombination4/Triangle.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment1/Stimulus3/ColorCombination4/Triangle.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0284",
+      "source": "Programs/Images/Experiment2/Stimulus1/Background.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment2/Stimulus1/Background.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0285",
+      "source": "Programs/Images/Experiment2/Stimulus1/Front.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment2/Stimulus1/Front.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0286",
+      "source": "Programs/Images/Experiment2/Stimulus2/Background.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment2/Stimulus2/Background.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0287",
+      "source": "Programs/Images/Experiment2/Stimulus2/Front.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment2/Stimulus2/Front.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0288",
+      "source": "Programs/Images/Experiment2/Stimulus3/Background.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment2/Stimulus3/Background.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0289",
+      "source": "Programs/Images/Experiment2/Stimulus3/Circle.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment2/Stimulus3/Circle.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0290",
+      "source": "Programs/Images/Experiment2/Stimulus3/Square.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment2/Stimulus3/Square.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0291",
+      "source": "Programs/Images/Experiment2/Stimulus3/Star.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment2/Stimulus3/Star.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0292",
+      "source": "Programs/Images/Experiment2/Stimulus3/Triangle.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment2/Stimulus3/Triangle.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0293",
+      "source": "Programs/Images/Experiment2/Stimulus5/Background.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment2/Stimulus5/Background.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0294",
+      "source": "Programs/Images/Experiment2/Stimulus5/Front.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment2/Stimulus5/Front.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0295",
+      "source": "Programs/Images/Experiment2/Stimulus5/Glare illusion.psd",
+      "action": "excluded",
+      "reason": "Layered/editable graphics or redundant exports; hidden metadata not safely cleared"
+    },
+    {
+      "source_id": "S0296",
+      "source": "Programs/Images/Experiment2/Stimulus6/Background.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment2/Stimulus6/Background.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0297",
+      "source": "Programs/Images/Experiment2/Stimulus6/BlackHole.psd",
+      "action": "excluded",
+      "reason": "Layered/editable graphics or redundant exports; hidden metadata not safely cleared"
+    },
+    {
+      "source_id": "S0298",
+      "source": "Programs/Images/Experiment2/Stimulus6/Front.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment2/Stimulus6/Front.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0299",
+      "source": "Programs/Images/Experiment2/Stimulus7/Background.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment2/Stimulus7/Background.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0300",
+      "source": "Programs/Images/Experiment2/Stimulus7/Front.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment2/Stimulus7/Front.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0301",
+      "source": "Programs/Images/Experiment2/Stimulus8/Background.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment2/Stimulus8/Background.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0302",
+      "source": "Programs/Images/Experiment2/Stimulus8/Front1.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment2/Stimulus8/Front1.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0303",
+      "source": "Programs/Images/Experiment2/Stimulus8/Front2.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment2/Stimulus8/Front2.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0304",
+      "source": "Programs/Images/Experiment2/Stimulus8/Front3.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment2/Stimulus8/Front3.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0305",
+      "source": "Programs/Images/Experiment2/Stimulus8/Front4.png",
+      "action": "sanitized",
+      "destination": "Programs/Images/Experiment2/Stimulus8/Front4.png",
+      "details": "PNG metadata removed; image pixels and color chunks preserved"
+    },
+    {
+      "source_id": "S0306",
+      "source": "Programs/ShufflePixels.py",
+      "action": "excluded",
+      "reason": "Ad hoc image helper with missing example input; not required by experiment applications"
+    },
+    {
+      "source_id": "S0307",
+      "source": "Programs/__pycache__/common.cpython-312.pyc",
+      "action": "excluded",
+      "reason": "System/history/cache artifact or non-allowlisted file"
+    },
+    {
+      "source_id": "S0308",
+      "source": "Programs/__pycache__/stimulus1.cpython-312.pyc",
+      "action": "excluded",
+      "reason": "System/history/cache artifact or non-allowlisted file"
+    },
+    {
+      "source_id": "S0309",
+      "source": "Programs/__pycache__/stimulus2.cpython-312.pyc",
+      "action": "excluded",
+      "reason": "System/history/cache artifact or non-allowlisted file"
+    },
+    {
+      "source_id": "S0310",
+      "source": "Programs/__pycache__/stimulus3.cpython-312.pyc",
+      "action": "excluded",
+      "reason": "System/history/cache artifact or non-allowlisted file"
+    },
+    {
+      "source_id": "S0311",
+      "source": "Programs/__pycache__/stimulus4.cpython-312.pyc",
+      "action": "excluded",
+      "reason": "System/history/cache artifact or non-allowlisted file"
+    },
+    {
+      "source_id": "S0312",
+      "source": "Programs/backup/experiment1.py",
+      "action": "excluded",
+      "reason": "Obsolete code backup, compiled artifact or associated asset"
+    },
+    {
+      "source_id": "S0313",
+      "source": "Programs/backup/old version/experiment1.py",
+      "action": "excluded",
+      "reason": "Obsolete code backup, compiled artifact or associated asset"
+    },
+    {
+      "source_id": "S0314",
+      "source": "Programs/backup/old version/experiment2.py",
+      "action": "excluded",
+      "reason": "Obsolete code backup, compiled artifact or associated asset"
+    },
+    {
+      "source_id": "S0315",
+      "source": "Programs/backup/old version/experiment3.py",
+      "action": "excluded",
+      "reason": "Obsolete code backup, compiled artifact or associated asset"
+    },
+    {
+      "source_id": "S0316",
+      "source": "Programs/backup/old version/experiment4.py",
+      "action": "excluded",
+      "reason": "Obsolete code backup, compiled artifact or associated asset"
+    },
+    {
+      "source_id": "S0317",
+      "source": "Programs/backup/old version/main_menu.py",
+      "action": "excluded",
+      "reason": "Obsolete code backup, compiled artifact or associated asset"
+    },
+    {
+      "source_id": "S0318",
+      "source": "Programs/experiment1.py",
+      "action": "sanitized",
+      "destination": "Programs/experiment1.py"
+    },
+    {
+      "source_id": "S0319",
+      "source": "Programs/experiment2.py",
+      "action": "sanitized",
+      "destination": "Programs/experiment2.py"
+    },
+    {
+      "source_id": "S0320",
+      "source": "Programs/temp.py",
+      "action": "excluded",
+      "reason": "Ad hoc image helper with missing example input; not required by experiment applications"
+    },
+    {
+      "source_id": "S0321",
+      "source": "README.md",
+      "action": "rewritten",
+      "reason": "Replaced with anonymous evidence-qualified research summary"
+    },
+    {
+      "source_id": "S0322",
+      "source": "UWW/Stimulus Pattern 1.mp4",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0323",
+      "source": "UWW/UWW.txt",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0324",
+      "source": "UWW/UWW発表スライド.pptx",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0325",
+      "source": "UWW/data/E.jpg",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0326",
+      "source": "UWW/data/E.odg",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0327",
+      "source": "UWW/data/E.odg~",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0328",
+      "source": "UWW/data/E1.jpg",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0329",
+      "source": "UWW/data/E1.odg",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0330",
+      "source": "UWW/data/E1_1.png",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0331",
+      "source": "UWW/data/E1_2.png",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0332",
+      "source": "UWW/data/E2.jpg",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0333",
+      "source": "UWW/data/E2.odg",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0334",
+      "source": "UWW/data/E2_1.png",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0335",
+      "source": "UWW/data/E2_2.png",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0336",
+      "source": "UWW/data/E3.jpg",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0337",
+      "source": "UWW/data/E3.odg",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0338",
+      "source": "UWW/data/E3_1.png",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0339",
+      "source": "UWW/data/E4.jpg",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0340",
+      "source": "UWW/data/E4.jpg~",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0341",
+      "source": "UWW/data/E4.odg",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0342",
+      "source": "UWW/data/E4.odg~",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0343",
+      "source": "UWW/data/E4_1.png",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0344",
+      "source": "UWW/data/E4_2.png",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0345",
+      "source": "UWW/data/English.jpg",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0346",
+      "source": "UWW/data/English.xcf",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0347",
+      "source": "UWW/data/Experimental Environment.jpg",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0348",
+      "source": "UWW/data/Japanese.jpg",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0349",
+      "source": "UWW/data/UWW.png",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0350",
+      "source": "UWW/data/UWW.xcf",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0351",
+      "source": "UWW/data/UWW_final.eps",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0352",
+      "source": "UWW/data/UWW_final.png",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0353",
+      "source": "UWW/data/UWW_final.psd",
+      "action": "excluded",
+      "reason": "Original presentation/draft/media may expose metadata, photos, layers or biometric plots"
+    },
+    {
+      "source_id": "S0354",
+      "source": "[withheld-research-bundle]/[archive]",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0355",
+      "source": "[withheld-research-bundle]/Data Analysis/.ipynb_checkpoints/EER_data-checkpoint.json",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0356",
+      "source": "[withheld-research-bundle]/Data Analysis/.ipynb_checkpoints/analysis-checkpoint.ipynb",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0357",
+      "source": "[withheld-research-bundle]/Data Analysis/.ipynb_checkpoints/previous_analysis-checkpoint.ipynb",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0358",
+      "source": "[withheld-research-bundle]/Data Analysis/.ipynb_checkpoints/run-checkpoint.bat",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0359",
+      "source": "[withheld-research-bundle]/Data Analysis/EER_data.json",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0360",
+      "source": "[withheld-research-bundle]/Data Analysis/EER_data_for_experiment2.json",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0361",
+      "source": "[withheld-research-bundle]/Data Analysis/analysis.ipynb",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0362",
+      "source": "[withheld-research-bundle]/Data Analysis/run.bat",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0363",
+      "source": "[withheld-research-bundle]/Programs/Experimental1 settings copy.txt",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0364",
+      "source": "[withheld-research-bundle]/Programs/Experimental2 settings.txt",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0365",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/PureColorImages/BlueAsPrimary.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0366",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/PureColorImages/BlueAsSecondary.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0367",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/PureColorImages/GreenAsPrimary.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0368",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/PureColorImages/GreenAsSecondary.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0369",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/PureColorImages/RedAsPrimary.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0370",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/PureColorImages/RedAsSecondary.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0371",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/PureColorImages/YellowAsPrimary.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0372",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/PureColorImages/YellowAsSecondary.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0373",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus1/ColorCombination1/BackgroundColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0374",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus1/ColorCombination1/FrontColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0375",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus1/ColorCombination1/MedianColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0376",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus1/ColorCombination2/BackgroundColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0377",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus1/ColorCombination2/FrontColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0378",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus1/ColorCombination2/MedianColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0379",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus1/ColorCombination3/BackgroundColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0380",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus1/ColorCombination3/FrontColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0381",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus1/ColorCombination3/MedianColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0382",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus1/ColorCombination4/BackgroundColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0383",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus1/ColorCombination4/FrontColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0384",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus1/ColorCombination4/MedianColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0385",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus2/ColorCombination1/BackgroundColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0386",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus2/ColorCombination1/FrontColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0387",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus2/ColorCombination2/BackgroundColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0388",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus2/ColorCombination2/FrontColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0389",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus2/ColorCombination3/BackgroundColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0390",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus2/ColorCombination3/FrontColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0391",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus2/ColorCombination4/BackgroundColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0392",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus2/ColorCombination4/FrontColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0393",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus3/ColorCombination1/BackgroundColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0394",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus3/ColorCombination1/Circle.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0395",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus3/ColorCombination1/Square.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0396",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus3/ColorCombination1/Star.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0397",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus3/ColorCombination1/Triangle.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0398",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus3/ColorCombination2/BackgroundColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0399",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus3/ColorCombination2/Circle.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0400",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus3/ColorCombination2/Square.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0401",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus3/ColorCombination2/Star.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0402",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus3/ColorCombination2/Triangle.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0403",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus3/ColorCombination3/BackgroundColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0404",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus3/ColorCombination3/Circle.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0405",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus3/ColorCombination3/Square.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0406",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus3/ColorCombination3/Star.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0407",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus3/ColorCombination3/Triangle.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0408",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus3/ColorCombination4/BackgroundColor.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0409",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus3/ColorCombination4/Circle.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0410",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus3/ColorCombination4/Square.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0411",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus3/ColorCombination4/Star.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0412",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment1/Stimulus3/ColorCombination4/Triangle.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0413",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus1/Background.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0414",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus1/Front.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0415",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus2/Background.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0416",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus2/Front.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0417",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus3/Background.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0418",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus3/Circle.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0419",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus3/Square.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0420",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus3/Star.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0421",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus3/Triangle.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0422",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus5/Background.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0423",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus5/Front.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0424",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus5/Glare illusion.psd",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0425",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus6/Background.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0426",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus6/BlackHole.psd",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0427",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus6/Front.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0428",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus7/Background.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0429",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus7/Front.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0430",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus8/Background.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0431",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus8/Front1.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0432",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus8/Front2.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0433",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus8/Front3.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0434",
+      "source": "[withheld-research-bundle]/Programs/Images/Experiment2/Stimulus8/Front4.png",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0435",
+      "source": "[withheld-research-bundle]/Programs/ShufflePixels.py",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0436",
+      "source": "[withheld-research-bundle]/Programs/__pycache__/common.cpython-312.pyc",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0437",
+      "source": "[withheld-research-bundle]/Programs/__pycache__/stimulus1.cpython-312.pyc",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0438",
+      "source": "[withheld-research-bundle]/Programs/__pycache__/stimulus2.cpython-312.pyc",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0439",
+      "source": "[withheld-research-bundle]/Programs/__pycache__/stimulus3.cpython-312.pyc",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0440",
+      "source": "[withheld-research-bundle]/Programs/__pycache__/stimulus4.cpython-312.pyc",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0441",
+      "source": "[withheld-research-bundle]/Programs/backup/experiment1.py",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0442",
+      "source": "[withheld-research-bundle]/Programs/backup/old version/experiment1.py",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0443",
+      "source": "[withheld-research-bundle]/Programs/backup/old version/experiment2.py",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0444",
+      "source": "[withheld-research-bundle]/Programs/backup/old version/experiment3.py",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0445",
+      "source": "[withheld-research-bundle]/Programs/backup/old version/experiment4.py",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0446",
+      "source": "[withheld-research-bundle]/Programs/backup/old version/main_menu.py",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0447",
+      "source": "[withheld-research-bundle]/Programs/experiment1.py",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0448",
+      "source": "[withheld-research-bundle]/Programs/experiment2.py",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0449",
+      "source": "[withheld-research-bundle]/Programs/temp.py",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    },
+    {
+      "source_id": "S0450",
+      "source": "[withheld-research-bundle]/[withheld-thesis].pdf",
+      "action": "excluded",
+      "reason": "Duplicate research bundle or archive; includes identifiable thesis and historical artifacts"
+    }
+  ]
+}

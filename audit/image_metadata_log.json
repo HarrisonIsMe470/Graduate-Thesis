@@ -1,0 +1,396 @@
+[
+  {
+    "path": "Programs/Images/Experiment1/PureColorImages/BlueAsPrimary.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/PureColorImages/BlueAsSecondary.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/PureColorImages/GreenAsPrimary.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/PureColorImages/GreenAsSecondary.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/PureColorImages/RedAsPrimary.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/PureColorImages/RedAsSecondary.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/PureColorImages/YellowAsPrimary.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/PureColorImages/YellowAsSecondary.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus1/ColorCombination1/BackgroundColor.png",
+    "removed_chunk_types": [
+      "pHYs"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus1/ColorCombination1/FrontColor.png",
+    "removed_chunk_types": [
+      "pHYs"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus1/ColorCombination1/MedianColor.png",
+    "removed_chunk_types": [
+      "pHYs"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus1/ColorCombination2/BackgroundColor.png",
+    "removed_chunk_types": [
+      "pHYs"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus1/ColorCombination2/FrontColor.png",
+    "removed_chunk_types": [
+      "pHYs"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus1/ColorCombination2/MedianColor.png",
+    "removed_chunk_types": [
+      "pHYs"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus1/ColorCombination3/BackgroundColor.png",
+    "removed_chunk_types": [
+      "pHYs"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus1/ColorCombination3/FrontColor.png",
+    "removed_chunk_types": [
+      "pHYs"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus1/ColorCombination3/MedianColor.png",
+    "removed_chunk_types": [
+      "pHYs"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus1/ColorCombination4/BackgroundColor.png",
+    "removed_chunk_types": [
+      "pHYs"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus1/ColorCombination4/FrontColor.png",
+    "removed_chunk_types": [
+      "pHYs"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus1/ColorCombination4/MedianColor.png",
+    "removed_chunk_types": [
+      "pHYs"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus2/ColorCombination1/BackgroundColor.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus2/ColorCombination1/FrontColor.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus2/ColorCombination2/BackgroundColor.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus2/ColorCombination2/FrontColor.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus2/ColorCombination3/BackgroundColor.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus2/ColorCombination3/FrontColor.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus2/ColorCombination4/BackgroundColor.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus2/ColorCombination4/FrontColor.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus3/ColorCombination1/BackgroundColor.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus3/ColorCombination1/Circle.png",
+    "removed_chunk_types": []
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus3/ColorCombination1/Square.png",
+    "removed_chunk_types": []
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus3/ColorCombination1/Star.png",
+    "removed_chunk_types": []
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus3/ColorCombination1/Triangle.png",
+    "removed_chunk_types": []
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus3/ColorCombination2/BackgroundColor.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus3/ColorCombination2/Circle.png",
+    "removed_chunk_types": []
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus3/ColorCombination2/Square.png",
+    "removed_chunk_types": []
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus3/ColorCombination2/Star.png",
+    "removed_chunk_types": []
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus3/ColorCombination2/Triangle.png",
+    "removed_chunk_types": []
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus3/ColorCombination3/BackgroundColor.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus3/ColorCombination3/Circle.png",
+    "removed_chunk_types": []
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus3/ColorCombination3/Square.png",
+    "removed_chunk_types": []
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus3/ColorCombination3/Star.png",
+    "removed_chunk_types": []
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus3/ColorCombination3/Triangle.png",
+    "removed_chunk_types": []
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus3/ColorCombination4/BackgroundColor.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus3/ColorCombination4/Circle.png",
+    "removed_chunk_types": []
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus3/ColorCombination4/Square.png",
+    "removed_chunk_types": []
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus3/ColorCombination4/Star.png",
+    "removed_chunk_types": []
+  },
+  {
+    "path": "Programs/Images/Experiment1/Stimulus3/ColorCombination4/Triangle.png",
+    "removed_chunk_types": []
+  },
+  {
+    "path": "Programs/Images/Experiment2/Stimulus1/Background.png",
+    "removed_chunk_types": [
+      "source JPEG container and metadata; converted losslessly from decoded pixels"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment2/Stimulus1/Front.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment2/Stimulus2/Background.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment2/Stimulus2/Front.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment2/Stimulus3/Background.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment2/Stimulus3/Circle.png",
+    "removed_chunk_types": []
+  },
+  {
+    "path": "Programs/Images/Experiment2/Stimulus3/Square.png",
+    "removed_chunk_types": []
+  },
+  {
+    "path": "Programs/Images/Experiment2/Stimulus3/Star.png",
+    "removed_chunk_types": []
+  },
+  {
+    "path": "Programs/Images/Experiment2/Stimulus3/Triangle.png",
+    "removed_chunk_types": []
+  },
+  {
+    "path": "Programs/Images/Experiment2/Stimulus5/Background.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment2/Stimulus5/Front.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment2/Stimulus6/Background.png",
+    "removed_chunk_types": []
+  },
+  {
+    "path": "Programs/Images/Experiment2/Stimulus6/Front.png",
+    "removed_chunk_types": [
+      "pHYs"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment2/Stimulus7/Background.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment2/Stimulus7/Front.png",
+    "removed_chunk_types": [
+      "pHYs",
+      "iTXt"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment2/Stimulus8/Background.png",
+    "removed_chunk_types": [
+      "pHYs"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment2/Stimulus8/Front1.png",
+    "removed_chunk_types": [
+      "pHYs"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment2/Stimulus8/Front2.png",
+    "removed_chunk_types": [
+      "pHYs"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment2/Stimulus8/Front3.png",
+    "removed_chunk_types": [
+      "pHYs"
+    ]
+  },
+  {
+    "path": "Programs/Images/Experiment2/Stimulus8/Front4.png",
+    "removed_chunk_types": [
+      "pHYs"
+    ]
+  }
+]
